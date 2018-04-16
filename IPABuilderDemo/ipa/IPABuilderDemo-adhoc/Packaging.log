@@ -1,0 +1,105 @@
+2018-01-24 12:02:47 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc328734e30; archive(resolved)='<IDEArchive: 0x7fc3285dcab0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc328734e30; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc3286a1890; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc3286b1900; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc3287396b0; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc32869feb0; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc32873b700; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc3285efc70; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc32870d440; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc328678cd0; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='<IDEProvisioningBasicTeam 0x7fc328709830: teamID: NABY5B5X89, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fc3286684b0; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc3286481d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc3285e8b10; archive = '<IDEArchive: 0x7fc3285dcab0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc328734e30>
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-01-24 12:02:47 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/iCorki/Desktop/IPABuilderDemo/build/IPABuilderDemo-adhoc.xcarchive/Products/Applications/IPABuilderDemo.app' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root/Payload/IPABuilderDemo.app'
+2018-01-24 12:02:47 +0000  >>> Copying /Users/iCorki/Desktop/IPABuilderDemo/build/IPABuilderDemo-adhoc.xcarchive/Products/Applications/IPABuilderDemo.app 
+2018-01-24 12:02:47 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-01-24 12:02:47 +0000  5133 bytes for ./_CodeSignature/CodeResources
+2018-01-24 12:02:47 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-01-24 12:02:47 +0000  380 bytes for ./archived-expanded-entitlements.xcent
+2018-01-24 12:02:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-24 12:02:47 +0000  1984 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-01-24 12:02:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-24 12:02:47 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-01-24 12:02:47 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-24 12:02:47 +0000  2949 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-24 12:02:47 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-24 12:02:47 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-01-24 12:02:47 +0000  copying file ./embedded.mobileprovision ... 
+2018-01-24 12:02:47 +0000  7524 bytes for ./embedded.mobileprovision
+2018-01-24 12:02:47 +0000  copying file ./Info.plist ... 
+2018-01-24 12:02:47 +0000  1121 bytes for ./Info.plist
+copying file ./IPABuilderDemo ... 
+2018-01-24 12:02:47 +0000  242688 bytes for ./IPABuilderDemo
+2018-01-24 12:02:47 +0000  copying file ./PkgInfo ... 
+2018-01-24 12:02:47 +0000  8 bytes for ./PkgInfo
+2018-01-24 12:02:47 +0000 [MT] /usr/bin/ditto exited with 0
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-01-24 12:02:47 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root/Payload/IPABuilderDemo.app'
+2018-01-24 12:02:47 +0000 [MT] /usr/bin/xattr exited with 0
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-01-24 12:02:47 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7fc3286b6aa0 'iCorki.IPABuilderDemo' '<DVTFilePath:0x7fc3285e85b0:'/Users/iCorki/Desktop/IPABuilderDemo/build/IPABuilderDemo-adhoc.xcarchive/Products/Applications/IPABuilderDemo.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc32872f1b0>: {
+}
+2018-01-24 12:02:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc3286b6aa0 'iCorki.IPABuilderDemo' '<DVTFilePath:0x7fc3285e85b0:'/Users/iCorki/Desktop/IPABuilderDemo/build/IPABuilderDemo-adhoc.xcarchive/Products/Applications/IPABuilderDemo.app'>'>: {
+    "application-identifier" = "NABY5B5X89.iCorki.IPABuilderDemo";
+    "com.apple.developer.team-identifier" = NABY5B5X89;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "NABY5B5X89.iCorki.IPABuilderDemo"
+    );
+}
+2018-01-24 12:02:47 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc3286b6aa0 'iCorki.IPABuilderDemo' '<DVTFilePath:0x7fc3285e85b0:'/Users/iCorki/Desktop/IPABuilderDemo/build/IPABuilderDemo-adhoc.xcarchive/Products/Applications/IPABuilderDemo.app'>'> to: /var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/entitlementsEgKsnG
+2018-01-24 12:02:47 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '619A8005324D90A05C5B3FC757D5E3DFF2393836' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/entitlementsEgKsnG' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root/Payload/IPABuilderDemo.app'
+2018-01-24 12:02:47 +0000  /var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root/Payload/IPABuilderDemo.app: signed app bundle with Mach-O universal (armv7 arm64) [iCorki.IPABuilderDemo]
+2018-01-24 12:02:47 +0000 [MT] /usr/bin/codesign exited with 0
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-01-24 12:02:47 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-01-24 12:02:47 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root' '/var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Packages/IPABuilderDemo.ipa'
+2018-01-24 12:02:47 +0000  >>> Copying /var/folders/hb/62bm18w124q1x2hl9p3y24w80000gn/T/XcodeDistPipeline.XVZ/Root 
+2018-01-24 12:02:47 +0000  copying file ./Payload/IPABuilderDemo.app/_CodeSignature/CodeResources ... 
+2018-01-24 12:02:47 +0000  5133 bytes for ./Payload/IPABuilderDemo.app/_CodeSignature/CodeResources
+2018-01-24 12:02:47 +0000  copying file ./Payload/IPABuilderDemo.app/archived-expanded-entitlements.xcent ... 
+380 bytes for ./Payload/IPABuilderDemo.app/archived-expanded-entitlements.xcent
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-24 12:02:47 +0000  1984 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-24 12:02:47 +0000  258 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-24 12:02:47 +0000  832 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-24 12:02:47 +0000  2949 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-24 12:02:47 +0000  258 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/IPABuilderDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-01-24 12:02:47 +0000  copying file ./Payload/IPABuilderDemo.app/embedded.mobileprovision ... 
+2018-01-24 12:02:47 +0000  8608 bytes for ./Payload/IPABuilderDemo.app/embedded.mobileprovision
+2018-01-24 12:02:47 +0000  copying file ./Payload/IPABuilderDemo.app/Info.plist ... 
+1121 bytes for ./Payload/IPABuilderDemo.app/Info.plist
+copying file ./Payload/IPABuilderDemo.app/IPABuilderDemo ... 
+2018-01-24 12:02:47 +0000  143728 bytes for ./Payload/IPABuilderDemo.app/IPABuilderDemo
+copying file ./Payload/IPABuilderDemo.app/PkgInfo ... 
+2018-01-24 12:02:47 +0000  8 bytes for ./Payload/IPABuilderDemo.app/PkgInfo
+2018-01-24 12:02:47 +0000 [MT] /usr/bin/ditto exited with 0
+2018-01-24 12:02:47 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

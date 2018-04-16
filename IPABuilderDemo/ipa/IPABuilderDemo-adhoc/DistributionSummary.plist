@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IPABuilderDemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>619A8005324D90A05C5B3FC757D5E3DFF2393836</string>
+				<key>dateExpires</key>
+				<string>2018/12/17</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>NABY5B5X89.iCorki.IPABuilderDemo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>NABY5B5X89</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>NABY5B5X89.iCorki.IPABuilderDemo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>IPABuilderDemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a598241f-33d5-4a43-bd25-db133b366b2c</string>
+				<key>name</key>
+				<string>IPABuilderDemo_adhoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>NABY5B5X89</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+{"projectName" : "IPABuilderDemo", 
+	"configuration" : "Release", 
+	"bundleID" : "iCorki.IPABuilderDemo",
+	 "codesign" : "iPhone Distribution: ZhouYI Hebei Network Technology Co., Ltd. (NABY5B5X89)",
+	 "adhoc_profile_udid" : "a598241f-33d5-4a43-bd25-db133b366b2c",
+	 "appstore_profile_udid" : "63df81db-48f2-4495-93c2-4ed216dfa89e",
+	 "UKEY" : "3c3ef16468732217c65f4b6c15d49b78",
+	 "APIKEY" : "d995471147d7c917746cb1c4f63d37f2"
+	}
+
+
